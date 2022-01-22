@@ -1,10 +1,10 @@
 # bb-vision-challenge
 
-[!Link al sitio](https://www.starz.com/ar/es/)
+[Link al sitio](https://www.starz.com/ar/es/)
 
 # Motivación 
 
-La idea consiste de hacer un web scraper de la página www.starz.com y obtener la metadata de las películas y series allí hosteadas.
+La idea consiste de hacer un web scraper de la página https://www.starz.com/ar/es/ y obtener la metadata de las películas y series allí hosteadas.
 Una vez obtenida la metadata, guardarla en formato .csv o .json.
 Luego, se usará la información para una posterior análisis.
 
