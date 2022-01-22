@@ -2,7 +2,7 @@
 
 [Link al sitio](https://bb.vision/)
 
-# Motivación 
+# Motivación. 
 
 La idea consiste de hacer un web scraper de la página https://www.starz.com/ar/es/ y obtener la metadata de las películas y series allí hosteadas.
 Una vez obtenida la metadata, guardarla en formato .csv o .json.
@@ -22,7 +22,7 @@ Luego, se usará la información para una posterior análisis.
 Dentro del proyecto, hay un archivo requirements.txt para ejecutar e instalar las librerías mencionadas.
 También un driver de Chrome que sirve como browser para el scraping.
 
-# Recorrido
+# Recorrido.
 
 Primero apunto al caso particular, es decir, obtener la metadata de un película y de una serie con selenium.
 Una vez obtenidos, se crea un diccionario donde se guarda la metedata (clave y valor) y se agrega al final de una lista.
@@ -39,7 +39,7 @@ Esta se realiza de manera similar al caso general, trabajando con los links de c
 
 Los resultados se almacenan en la carpeta datasets.
 
-# Instalación
+# Instalación.
 
 * Bajar el repositorio
 * Para los archivos .ipynb, crear una instancia de jupyter notebook para su ejecución.
@@ -48,7 +48,7 @@ Los resultados se almacenan en la carpeta datasets.
 Ambas hacen lo mismo y poseen docstrings de forma adecuada.
 
 
-# Modelo de negocio
+# Modelo de negocio.
 
 Starz es una compañía de televisión premiun que ofrece películas y series a través una aplicación, starzplay, tanto para android y apple como para TV.
 Poseé una colección de péliculas, series y series originales cuyo géneros incluyen acción, drama, terror, romance, entre otros.
