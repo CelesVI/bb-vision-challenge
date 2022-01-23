@@ -51,6 +51,8 @@ def get_metadata(useful_links):
     #Get data from url and wait 5 second to get all data from the url.
     #Get data from xpath and save it.
     #Then, create a dictionary to store metadata and append it on the list.
+    # It might crash if the driver doesn't have enough time to retrive the metadata.
+    # If that happends, try to execute this loop again.
     for i in useful_links:
         print(i)
         driver.get(i)

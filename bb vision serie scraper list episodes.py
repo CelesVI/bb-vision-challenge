@@ -95,7 +95,8 @@ def get_metadata(lista_temporadas):
     # Get metadata from xpath.
     # Wait 5 seconds for each episode to load all data.
     # Then, save it into dictionary to append it to lista_episodios_final.
-    # It might crash if the driver doesn't have enought time to retrive the metadata.
+    # It might crash if the driver doesn't have enough time to retrive the metadata.
+    # If that happends, try to execute this loop again.
     for link in lista_episodios:
         print(link)
         driver.get(link)
